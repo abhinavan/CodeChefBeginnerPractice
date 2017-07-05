@@ -6,13 +6,13 @@ import java.util.Scanner;
  * Write a program to find the remainder when two given numbers are divided.
  * 
  * -------Input-------------
- * The first line contains an integer T, total number of test cases. 
- * Then follow T lines, each line contains two Integers A and B.
+ * The first line contains an integerÂ T, total number of test cases. 
+ * Then followÂ TÂ lines, each line contains two IntegersÂ AÂ andÂ B.
  * 
  * 1<=T<=1000 , 1<=A,B<=10002
  * -------Output-------------
  * 
- * Find remainder when A is divided by B.
+ * Find remainder whenÂ AÂ is divided byÂ B.
  * */
 public class FindRemainder 
 {
@@ -21,6 +21,7 @@ public class FindRemainder
 	
 	public static void divide(int dividend,int divisor)
 	{
+		// logic to find remainder when divisor and dividend is given
 		quotient=dividend/divisor;
 		remainder=dividend-(quotient*divisor);
 		System.out.println(remainder);
