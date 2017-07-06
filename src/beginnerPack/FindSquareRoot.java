@@ -33,6 +33,21 @@ public class FindSquareRoot
 		
 	}
 	
+	/*
+	 * ----------Logic to find square root--------------
+	 * 
+	 * (x+r)<=squareRoot(inputNumber)  // x is the minLimit passed as a parameter 
+	 * 								   // r is the decimal value which we can add to minLimit and see if their product 
+	 * 									  become equal to the product
+	 * 
+	 * Squaring both sides 
+	 * 
+	 * (x+r)(x+r)<=inputNumber
+	 * 
+	 * (x*x)+(r*r)+(2*x*r)<=inputNumber
+	 * 
+	 * 
+	 * */
 	public static void findSquareRoot(double number,double minLimit)
 	{
 		double addFactor=0.01;
