@@ -28,7 +28,7 @@ public class FindSquareRoot
 			minLimit++;
 		}
 		minLimit=minLimit-1;
-		System.out.println(minLimit);
+		//System.out.println(minLimit);
 		findSquareRoot(number, minLimit);
 		
 	}
@@ -59,7 +59,7 @@ public class FindSquareRoot
 			tempResult=(addFactor*addFactor)+(productOfMinLimit)+(2*addFactor*minLimit);
 			
 		}
-		System.out.println(minLimit+addFactor);
+		System.out.println((minLimit+addFactor)-0.01);
 	}
 	public static void main(String[] args) 
 	{
@@ -69,6 +69,7 @@ public class FindSquareRoot
 		{
 			while(testCases-->0)
 			{
+				System.out.println("Enter number");
 				inputNumber=sc.nextDouble();
 				calculateMinimumLimit(inputNumber);
 			}
