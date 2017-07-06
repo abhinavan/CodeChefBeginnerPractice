@@ -1,3 +1,4 @@
+
 package beginnerPack;
 
 public class InToPost 
@@ -100,3 +101,4 @@ public class InToPost
 	}
 
 }
+
