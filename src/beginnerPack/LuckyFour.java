@@ -13,7 +13,7 @@ import java.util.Scanner;
  * 
  * ----Output-------------
  * 
- * Output T lines . Each of these lines should contain the number of occurences of the digit 4 in respective integer 
+ * Output T lines . Each of these lines should contain the number of occurences of the digit 4 in respective integer  
  * 
  * */
 public class LuckyFour 
